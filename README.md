@@ -12,3 +12,12 @@ PySpark Text Processing for the words used in the play 'Hints for Lovers'
 I took the text file for my Project's data from 
 
 - [Hints for Lovers](https://www.gutenberg.org/cache/epub/14255/pg14255.txt)
+
+## Get text data from url
+Request or Pull the text data from given URL into the urllib library
+```
+import urllib.request
+stringInURL = "https://www.gutenberg.org/cache/epub/14255/pg14255.txt"
+```
+
+urllib.request.urlretrieve(stringInURL, "/tmp/love.txt")
