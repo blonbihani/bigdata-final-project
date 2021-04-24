@@ -80,3 +80,21 @@ loveWordsResults = loveWordsCountRDD.map(lambda word: (word[1],word[0])).sortByK
 print(loveWordsResults)
 ```
 
+## Charting
+We will use Pandas, MatPlotLib and Seaborn packages to create visualization for our project.
+
+```
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+source = 'TextData'
+title = 'The 10 most repeated words in Hints for Lovers' + source
+xlabel = 'Count'
+ylabel = 'Words'
+
+df = pd.DataFrame.from_records(loveWordsResults, columns = [xlabel,ylabel])
+plt.figure(figsize=(12,5))
+sns.barplot(xlabel,ylabel, data=df, palette = "cubehelix").set_title(title)
+```
+
