@@ -97,5 +97,5 @@ df = pd.DataFrame.from_records(loveWordsResults, columns = [xlabel,ylabel])
 plt.figure(figsize=(12,5))
 sns.barplot(xlabel,ylabel, data=df, palette = "cubehelix").set_title(title)
 ```
-<img> <a href = "https://github.com/blonbihani/bigdata-final-project/blob/main/Charting.PNG">
+<img src = "Charting.PNG">
 
