@@ -101,4 +101,7 @@ sns.barplot(xlabel,ylabel, data=df, palette = "cubehelix").set_title(title)
 
 
 # References
-- - [Hints for Lovers](https://www.gutenberg.org/cache/epub/14255/pg14255.txt)
+- [Gutenberg](https://www.gutenberg.org/cache/epub/14255/pg14255.txt)
+- [Databricks](https://docs.databricks.com/)
+- [Databricks Utilities](https://docs.microsoft.com/en-us/azure/databricks/dev-tools/databricks-utils)
+- [PySpark](https://github.com/denisecase/starting-spark)
