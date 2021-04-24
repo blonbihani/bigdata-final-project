@@ -13,11 +13,13 @@ I took the text file for my Project's data from
 
 - [Hints for Lovers](https://www.gutenberg.org/cache/epub/14255/pg14255.txt)
 
-## Get text data from url
-Request or Pull the text data from given URL into the urllib library
+## Steps involved:
+
+### Get text data from URL
+At first, we shall request or Pull the text data from given URL into the urllib library.
 ```
 import urllib.request
 stringInURL = "https://www.gutenberg.org/cache/epub/14255/pg14255.txt"
 ```
-
-urllib.request.urlretrieve(stringInURL, "/tmp/love.txt")
+Then we shall store the data in temporary file called love.txt.
+```urllib.request.urlretrieve(stringInURL, "/tmp/love.txt")```
