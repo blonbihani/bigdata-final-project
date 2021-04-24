@@ -12,6 +12,14 @@ PySpark Text Processing for the words used in the play 'Hints for Lovers'
          <a href="https://www.linkedin.com/in/bihanitamang/" title="LinkedIn-Profile">
          </a>
      </td>
+    <td align="center">
+     <a href="https://www.linkedin.com/in/bihanitamang">
+       <img src="" width="100px;" alt=""/><br />
+         <sub><b>LinkedIn</b>
+         </sub></a><br/>
+         <a href="https://www.linkedin.com/in/bihanitamang/" title="LinkedIn-Profile">
+         </a>
+     </td>
   </tr>
 </table>
 
