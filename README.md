@@ -1,5 +1,5 @@
 # Tamang's Big Data Final Project
-PySpark Text Processing
+PySpark Text Processing for the words used in the play 'Hints for Lovers'
 
 ## Author: Bihani Tamang
 <table>
