@@ -4,13 +4,19 @@ PySpark Text Processing for the words used in the play 'Hints for Lovers'
 ## Author: Bihani Tamang
 <table>
   <tr>
-   <td align="center"><a href="https://github.com/blonbihani"><img src="https://avatars.githubusercontent.com/blonbihani" width="200px;" alt=""/><br /><sub><b>Bihani Tamang</b></sub></a><br /><a href="https://github.com/blonbihani" title="Code"></a></td>
+   <td align="center">
+     <a href="https://github.com/blonbihani">
+       <img src="https://avatars.githubusercontent.com/blonbihani" width="200px;" alt=""/><br />
+         <sub><b>Bihani Tamang</b>
+         </sub></a><br />
+         <a href="https://github.com/blonbihani" title="Profile">
+         </a>
+     </td>
   </tr>
-  </table>
+</table>
 
 ## Text Data Source
-I took the text file for my Project's data from 
-
+I took the text file for my Project's data from the play called Hints for Love through the given link:
 - [Hints for Lovers](https://www.gutenberg.org/cache/epub/14255/pg14255.txt)
 
 # Steps Involved:
@@ -99,6 +105,12 @@ sns.barplot(xlabel,ylabel, data=df, palette = "cubehelix").set_title(title)
 ```
 <img src = "Charting.PNG" width="600" height="400">
 
+# Abbreviations
+- RDD: Resilient Distributed Datasets
+- ml: Machine Learning
+- re: Regular Expression 
+- df: DataFrame
+- lib: Library
 
 # References
 - [Gutenberg](https://www.gutenberg.org/cache/epub/14255/pg14255.txt)
