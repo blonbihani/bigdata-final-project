@@ -7,13 +7,14 @@ PySpark Text Processing for the words used in the play 'Hints for Lovers'
    <td align="center">
      <a href="https://github.com/blonbihani">
        <img src="https://avatars.githubusercontent.com/blonbihani" width="200px;" alt=""/><br />
-         <sub><b>Bihani Tamang</b>
-         </sub></a><br />
-         <a href="https://github.com/blonbihani" title="Profile">
+         <sub><b>LinkedIn</b>
+         </sub></a><br/>
+         <a href="https://www.linkedin.com/in/bihanitamang/" title="LinkedIn-Profile">
          </a>
      </td>
   </tr>
 </table>
+
 
 ## Text Data Source
 I took the text file for my Project's data from the play called Hints for Love through the given link:
@@ -117,3 +118,4 @@ sns.barplot(xlabel,ylabel, data=df, palette = "cubehelix").set_title(title)
 - [Databricks](https://docs.databricks.com/)
 - [Databricks Utilities](https://docs.microsoft.com/en-us/azure/databricks/dev-tools/databricks-utils)
 - [PySpark](https://github.com/denisecase/starting-spark)
+- [Dr. Case's GitHub](https://github.com/denisecase)
