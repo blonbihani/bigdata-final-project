@@ -13,9 +13,9 @@ I took the text file for my Project's data from
 
 - [Hints for Lovers](https://www.gutenberg.org/cache/epub/14255/pg14255.txt)
 
-## Steps involved:
+# Steps Involved:
 
-### Get and store the data
+## Get and store the data
 At first, we shall request or pull the text data from given URL into the urllib library.
 ```
 import urllib.request
@@ -36,7 +36,7 @@ Now, we will transfer the data file into Spark by converting the data file into 
 ```
 LoverawRDD = sc.textFile("dbfs:/data/love.txt")
 ```
-### Data Cleaning
+## Data Cleaning
 
 In this step, we shall use flatmapping technique to break down the data. We will change all the words into lower case using lower(), remove any spaces using strip() and split the sentences into words using split.(" ").
 ```
@@ -63,7 +63,7 @@ Optional Step: We will then remove any empty elements in our data.
 ```
 loveWordsEmptyRemoveRDD = loveWordsRDD.filter(lambda words: words != "")
 ```
-### Processing/Cleaning the Data
+## Processing/Cleaning the Data
 We shall convert the words in the form (words,1) and  count the number of times the word has been used. Then, we'll again change the second parameter to the count. 
 ```
 loveWordsPairRDD = loveWordsEmptyRemoveRDD.map(lambda word: (word,1))
@@ -100,4 +100,5 @@ sns.barplot(xlabel,ylabel, data=df, palette = "cubehelix").set_title(title)
 <img src = "Charting.PNG" width="600" height="400">
 
 
-
+# References
+- - [Hints for Lovers](https://www.gutenberg.org/cache/epub/14255/pg14255.txt)
